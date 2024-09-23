@@ -1,8 +1,16 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsString } from 'class-validator';
+import { IsNumber, IsString } from 'class-validator';
 
-export class CreatePresignedUploadUrl {
+export class CreatePresignedUploadUrlDto {
   @ApiProperty()
   @IsString()
   key: string;
+
+  @ApiProperty()
+  @IsString()
+  type: string;
+
+  @ApiProperty()
+  @IsNumber()
+  size: number;
 }

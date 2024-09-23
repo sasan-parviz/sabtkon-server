@@ -9,6 +9,8 @@ import { AppService } from './app.service';
 import { UsersModule } from './users/users.module';
 import { CompanyEditModule } from './company-edit/company-edit.module';
 import { UploadModule } from './upload/upload.module';
+import { CompanyNewModule } from './company-new/company-new.module';
+import { TransactionsModule } from './transactions/transactions.module';
 
 @Module({
   imports: [
@@ -21,6 +23,8 @@ import { UploadModule } from './upload/upload.module';
     UsersModule,
     CompanyEditModule,
     UploadModule,
+    TransactionsModule,
+    CompanyNewModule,
   ],
   controllers: [AppController],
   providers: [

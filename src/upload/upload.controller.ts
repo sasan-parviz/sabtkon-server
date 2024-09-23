@@ -1,6 +1,6 @@
 import { Controller, Post, Body } from '@nestjs/common';
 import { UploadService } from './upload.service';
-import { CreatePresignedUploadUrl } from './dto/create-presigned-url.dto';
+import { CreatePresignedUploadUrlDto } from './dto/create-presigned-url.dto';
 import { GetUser } from 'src/decorators/get-user.decorator';
 import { User } from 'src/users/entities/user.entity';
 import { ApiBearerAuth } from '@nestjs/swagger';
@@ -13,8 +13,8 @@ export class UploadController {
   @Post()
   createPresignedUploadUrl(
     @GetUser() user: User,
-    @Body() dto: CreatePresignedUploadUrl,
+    @Body() dto: CreatePresignedUploadUrlDto,
   ) {
-    return this.uploadService.requestPresignedUploadUrl(user._id, dto.key);
+    return this.uploadService.requestPresignedUploadUrl(user._id, dto);
   }
 }

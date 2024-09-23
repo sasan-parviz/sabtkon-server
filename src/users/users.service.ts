@@ -1,4 +1,9 @@
-import { Inject, Injectable, UnauthorizedException } from '@nestjs/common';
+import {
+  ServiceUnavailableException,
+  Inject,
+  Injectable,
+  UnauthorizedException,
+} from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
@@ -51,10 +56,35 @@ export class UsersService {
     const newOtpCode = Math.floor(Math.random() * 90000) + 10000;
     await this.cacheManager.set(mobile, String(newOtpCode), 0);
     console.info(`For mobile ${mobile} the code is ${newOtpCode}`);
-    return {
-      ok: true,
-      mobile,
-    };
+
+    // Sending OTP Code
+    const smsReq = await fetch('https://api.sms.ir/v1/send/verify', {
+      method: 'POST',
+      headers: {
+        ACCEPT: 'application/json',
+        'X-API-KEY': 'SMS_API_KEY',
+      },
+      body: JSON.stringify({
+        mobile: mobile.startsWith('0') ? mobile.substring(1) : mobile,
+        templateId: 100000,
+        parameters: [
+          {
+            name: 'Code',
+            value: '12345',
+          },
+        ],
+      }),
+    });
+    if (smsReq.status !== 200) {
+      throw new ServiceUnavailableException(
+        'سرویس پیامکی با مشکل مواجه شده است',
+      );
+    } else {
+      return {
+        ok: true,
+        mobile,
+      };
+    }
   }
 
   async loginSubmitOtp({ mobile, otpCode }: LoginSubmitOtpDto) {
