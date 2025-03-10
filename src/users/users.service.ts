@@ -59,6 +59,7 @@ export class UsersService {
     return {
       ok: true,
       mobile,
+      code: newOtpCode,
     };
 
     // Sending OTP Code
@@ -66,7 +67,7 @@ export class UsersService {
       method: 'POST',
       headers: {
         ACCEPT: 'application/json',
-        'X-API-KEY': 'SMS_API_KEY',
+        'X-API-KEY': '7mfrx748UKINAben3cgjnGm1OSeZLFMIDJbrubl2n5ghAsnE',
       },
       body: JSON.stringify({
         mobile: mobile.startsWith('0') ? mobile.substring(1) : mobile,
