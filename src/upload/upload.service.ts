@@ -15,7 +15,7 @@ export class UploadService {
 
     const s3 = new S3Client({
       region: 'default',
-      endpoint: 'http://62.60.198.24:9000', // 'http://localhost:9000',
+      endpoint: 'http://127.0.0.1:9000', // 'http://localhost:9000',
       credentials: {
         accessKeyId: 'Ao5z2sfiG0qDcJzoCeLk', // '8Sg6D0TowFKrqlXhaViI',
         secretAccessKey: 'LKfrJBoI2d8SRvIUSeJFnjpfKWnMvzw4paQWcrQW', // 'KNEcwAdaVBUqKoblwMkqG7RFXdkUiJh7cC0YeF6u',
