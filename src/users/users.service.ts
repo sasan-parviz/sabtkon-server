@@ -56,6 +56,10 @@ export class UsersService {
     const newOtpCode = Math.floor(Math.random() * 90000) + 10000;
     await this.cacheManager.set(mobile, String(newOtpCode), 0);
     console.info(`For mobile ${mobile} the code is ${newOtpCode}`);
+    return {
+      ok: true,
+      mobile,
+    };
 
     // Sending OTP Code
     const smsReq = await fetch('https://api.sms.ir/v1/send/verify', {

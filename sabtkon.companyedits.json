@@ -1,0 +1,884 @@
+[{
+  "_id": {
+    "$oid": "66e716faf001628f3dedaf9f"
+  },
+  "userId": {
+    "$oid": "66d2e630dd19270bc9405232"
+  },
+  "data": {
+    "type": "سهامی خاص",
+    "name": "شرکت تست 2غبغب",
+    "nationalNumber": "1234567891",
+    "registerNumber": "42323145",
+    "members": [
+      {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 2,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "محمدی",
+        "label": "محمد محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "نایب رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 3,
+        "memberType": "حقیقی",
+        "firstname": "رضا",
+        "lastname": "رضایی",
+        "label": "رضا رضایی",
+        "nationalCode": "2110739118",
+        "share": 23,
+        "role": "مدیرعامل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 4,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "حسینی",
+        "label": "محمد حسینی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس اصلی",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 5,
+        "memberType": "حقیقی",
+        "firstname": "کیارش",
+        "lastname": "محمدی",
+        "label": "کیارش محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس علی البدل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      }
+    ],
+    "establishmentDomesticBranch": {
+      "enable": true,
+      "price": 250000,
+      "branchManager": {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      "postalCode": "2132312312",
+      "address": "asdadsasdasdasd"
+    },
+    "changeCompanyBranchAddress": {
+      "enable": true,
+      "price": 250000,
+      "oldPostalCode": "2132312312",
+      "oldAddress": "asdasdasdasdasd",
+      "newPostalCode": "2131231231",
+      "newAddress": "asdasdasdasdas"
+    },
+    "changeCompanyName": {
+      "enable": true,
+      "price": 500000,
+      "name1": "asdasdasdasdasd"
+    },
+    "changeCompanyField": {
+      "enable": true,
+      "price": 120000,
+      "newSubject": [
+        "مورد دو",
+        "asdasd",
+        "مورد یک"
+      ]
+    },
+    "ApprovalNewStatute": {
+      "enable": true,
+      "price": 120000
+    },
+    "LiquidationCompany": {
+      "enable": true,
+      "price": 120000,
+      "SettlementManager": {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      "postalCode": "1231231231",
+      "address": "asdasdasdasdasd"
+    },
+    "changeCompanyAddress": {
+      "enable": true,
+      "price": 120000,
+      "newPostalCode": "1231231231",
+      "newAddress": "نننننننننننن"
+    },
+    "ChangeNumberOfBoardMembers": {
+      "enable": true,
+      "price": 120000,
+      "oldCount": "4",
+      "newCount": "5",
+      "newMember_0_phoneNumber": "09114554555"
+    },
+    "LiquidationBranch": {
+      "enable": true,
+      "price": 120000,
+      "SettlementManager": {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      "branchPostalCode": "1231231231",
+      "branchAddress": "12dasdadasd"
+    },
+    "AmendingStatute": {
+      "enable": true,
+      "price": 120000,
+      "text": "asdadsasdasdasd"
+    },
+    "ConvertCompany": {
+      "enable": false,
+      "price": 120000,
+      "members": []
+    },
+    "changeMembersRoles": {
+      "enable": true,
+      "price": 120000,
+      "renewal": true,
+      "newRoles": [
+        {
+          "id": 1,
+          "memberType": "حقیقی",
+          "firstname": "ساسان",
+          "lastname": "پرویز",
+          "label": "ساسان پرویز",
+          "nationalCode": "2110739118",
+          "share": 12,
+          "role": "رئیس هیئت مدیره",
+          "phoneNumber": "09371181647",
+          "signPermission": true,
+          "nationalCardSrc": ""
+        },
+        {
+          "id": 2,
+          "memberType": "حقیقی",
+          "firstname": "محمد",
+          "lastname": "محمدی",
+          "label": "محمد محمدی",
+          "nationalCode": "2110739118",
+          "share": 0,
+          "role": "نایب رئیس هیئت مدیره",
+          "phoneNumber": "09371181647",
+          "signPermission": true,
+          "nationalCardSrc": ""
+        },
+        {
+          "id": 3,
+          "memberType": "حقیقی",
+          "firstname": "رضا",
+          "lastname": "رضایی",
+          "label": "رضا رضایی",
+          "nationalCode": "2110739118",
+          "share": 23,
+          "role": "مدیرعامل",
+          "phoneNumber": "09371181647",
+          "signPermission": true,
+          "nationalCardSrc": ""
+        },
+        {
+          "id": 4,
+          "memberType": "حقیقی",
+          "firstname": "محمد",
+          "lastname": "حسینی",
+          "label": "محمد حسینی",
+          "nationalCode": "2110739118",
+          "share": 0,
+          "role": "بازرس اصلی",
+          "phoneNumber": "09371181647",
+          "signPermission": true,
+          "nationalCardSrc": ""
+        },
+        {
+          "id": 5,
+          "memberType": "حقیقی",
+          "firstname": "کیارش",
+          "lastname": "محمدی",
+          "label": "کیارش محمدی",
+          "nationalCode": "2110739118",
+          "share": 0,
+          "role": "بازرس علی البدل",
+          "phoneNumber": "09371181647",
+          "signPermission": true,
+          "nationalCardSrc": ""
+        }
+      ]
+    },
+    "changeRepresentative": {
+      "enable": false,
+      "price": 120000,
+      "newRepresentativePhoneNumber": "",
+      "newRepresentativeNationalCard": ""
+    },
+    "signPermissionOwners": {
+      "enable": true,
+      "price": 120000,
+      "chairmanOfTheBoardOfDirectors": true,
+      "viceChairmanOfTheBoardOfDirectors": true,
+      "ceo": true,
+      "chiefInspector": false,
+      "substituteInspector": false,
+      "principalMemberOfTheBoardOfDirectors": true,
+      "alternateMemberOfTheBoardOfDirectors": false,
+      "secretaryOfTheBoardOfDirectors": false
+    },
+    "delegationOfAuthority": {
+      "enable": true,
+      "price": 120000,
+      "text": "",
+      "powers": [
+        "اختیار یک",
+        "اختیار دو",
+        "اختیار سه"
+      ]
+    },
+    "changeBranchManager": {
+      "enable": true,
+      "price": 120000,
+      "newManager": {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      "postalCode": "1231231231",
+      "address": "adasdasdasdadasd"
+    },
+    "capitalReduction": {
+      "enable": false,
+      "price": 210000,
+      "reductionType": "memberQuit",
+      "newShare": "",
+      "newCompanyValue": "",
+      "capitalType": "cash"
+    },
+    "capitalIncrease": {
+      "enable": false,
+      "price": 210000,
+      "increaseType": "newMember",
+      "memberPhoneNumber": "",
+      "incomingCapital": "",
+      "memberNewShare": "",
+      "newCompanyValue": "",
+      "capitalType": "cash"
+    },
+    "chooseInspector": {
+      "enable": true,
+      "price": 310000,
+      "renewalInspectors": true,
+      "newInspectors": [
+        {
+          "id": 4,
+          "memberType": "حقیقی",
+          "firstname": "محمد",
+          "lastname": "حسینی",
+          "label": "محمد حسینی",
+          "nationalCode": "2110739118",
+          "share": 0,
+          "role": "بازرس اصلی",
+          "phoneNumber": "09371181647",
+          "signPermission": true,
+          "nationalCardSrc": ""
+        },
+        {
+          "id": 5,
+          "memberType": "حقیقی",
+          "firstname": "کیارش",
+          "lastname": "محمدی",
+          "label": "کیارش محمدی",
+          "nationalCode": "2110739118",
+          "share": 0,
+          "role": "بازرس علی البدل",
+          "phoneNumber": "09371181647",
+          "signPermission": true,
+          "nationalCardSrc": ""
+        }
+      ]
+    },
+    "fiscalYearApproval": {
+      "enable": true,
+      "price": 310000,
+      "year": "1403"
+    },
+    "capitalCommitmentPayment": {
+      "enable": true,
+      "price": 310000,
+      "file": "",
+      "initialCompanyValue": 133333,
+      "memberPromiseValue": 123123123
+    },
+    "shareTransfer": {
+      "enable": true,
+      "price": 310000,
+      "buyersList": [
+        {
+          "shareTransfered": "2",
+          "buyer": {
+            "id": 2,
+            "memberType": "حقیقی",
+            "firstname": "محمد",
+            "lastname": "محمدی",
+            "label": "محمد محمدی",
+            "nationalCode": "2110739118",
+            "share": 0,
+            "role": "نایب رئیس هیئت مدیره",
+            "phoneNumber": "09371181647",
+            "signPermission": true,
+            "nationalCardSrc": ""
+          }
+        }
+      ],
+      "seller": {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      }
+    },
+    "convertStockTypeToNoName": {
+      "enable": true,
+      "price": 310000
+    },
+    "convertStockTypeToWithName": {
+      "enable": true,
+      "price": 310000
+    },
+    "companyValue": 123123222,
+    "companyTotalShare": 213123
+  },
+  "status": "PAYED",
+  "createdAt": {
+    "$date": "2024-09-15T17:18:50.483Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-03T21:45:42.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6723b33acf9422d2dfcf6a3d"
+  },
+  "userId": {
+    "$oid": "66d2e630dd19270bc9405232"
+  },
+  "data": {
+    "type": "مسئولیت محدود",
+    "name": "شرکت تست 2غبغب",
+    "nationalNumber": "1231231231",
+    "registerNumber": "12345678",
+    "members": [
+      {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویزی گرگانی",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": "http://localhost:9000/sabtkon/66d2e630dd19270bc9405232/1730392793539-original.png",
+        "postalCode": "4913859666",
+        "address": "گرگان بلوار رسالت - رسالت 13"
+      },
+      {
+        "id": 2,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "محمدی",
+        "label": "محمد محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "نایب رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 3,
+        "memberType": "حقیقی",
+        "firstname": "رضا",
+        "lastname": "رضایی",
+        "label": "رضا رضایی",
+        "nationalCode": "2110739118",
+        "share": 23,
+        "role": "مدیرعامل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 5,
+        "memberType": "حقیقی",
+        "firstname": "کیارش",
+        "lastname": "محمدی",
+        "label": "کیارش محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس علی البدل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 4,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "حسینی",
+        "label": "محمد حسینی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس اصلی",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      }
+    ],
+    "establishmentDomesticBranch": {
+      "enable": false,
+      "price": 250000
+    },
+    "changeCompanyBranchAddress": {
+      "enable": false,
+      "price": 250000
+    },
+    "changeCompanyName": {
+      "enable": true,
+      "price": 500000,
+      "name1": "شرکت صالح مردان شمال",
+      "name2": "شرکت صالح مردان شمال",
+      "name3": "-"
+    },
+    "changeCompanyField": {
+      "enable": true,
+      "price": 120000,
+      "newSubject": [
+        "مورد دو",
+        "مورد یک"
+      ]
+    },
+    "ApprovalNewStatute": {
+      "enable": false,
+      "price": 120000
+    },
+    "LiquidationCompany": {
+      "enable": false,
+      "price": 120000
+    },
+    "changeCompanyAddress": {
+      "enable": false,
+      "price": 120000
+    },
+    "ChangeNumberOfBoardMembers": {
+      "enable": false,
+      "price": 120000
+    },
+    "LiquidationBranch": {
+      "enable": false,
+      "price": 120000
+    },
+    "AmendingStatute": {
+      "enable": false,
+      "price": 120000
+    },
+    "ConvertCompany": {
+      "enable": false,
+      "price": 120000,
+      "members": []
+    },
+    "changeMembersRoles": {
+      "enable": false,
+      "price": 120000,
+      "renewal": false,
+      "newRoles": []
+    },
+    "changeRepresentative": {
+      "enable": false,
+      "price": 120000,
+      "newRepresentativePhoneNumber": "",
+      "newRepresentativeNationalCard": ""
+    },
+    "signPermissionOwners": {
+      "enable": false,
+      "price": 120000,
+      "chairmanOfTheBoardOfDirectors": false,
+      "viceChairmanOfTheBoardOfDirectors": false,
+      "ceo": false,
+      "chiefInspector": false,
+      "substituteInspector": false,
+      "principalMemberOfTheBoardOfDirectors": false,
+      "alternateMemberOfTheBoardOfDirectors": false,
+      "secretaryOfTheBoardOfDirectors": false
+    },
+    "delegationOfAuthority": {
+      "enable": false,
+      "price": 120000,
+      "text": ""
+    },
+    "changeBranchManager": {
+      "enable": false,
+      "price": 120000
+    },
+    "capitalReduction": {
+      "enable": false,
+      "price": 210000,
+      "reductionType": "memberQuit",
+      "newShare": "",
+      "newCompanyValue": "",
+      "capitalType": "cash"
+    },
+    "capitalIncrease": {
+      "enable": false,
+      "price": 210000,
+      "increaseType": "newMember",
+      "memberPhoneNumber": "",
+      "incomingCapital": "",
+      "memberNewShare": "",
+      "newCompanyValue": "",
+      "capitalType": "cash"
+    },
+    "chooseInspector": {
+      "enable": false,
+      "price": 310000,
+      "renewalInspectors": false,
+      "newInspectors": []
+    },
+    "fiscalYearApproval": {
+      "enable": false,
+      "price": 310000,
+      "year": ""
+    },
+    "capitalCommitmentPayment": {
+      "enable": false,
+      "price": 310000,
+      "file": ""
+    },
+    "shareTransfer": {
+      "enable": false,
+      "price": 310000,
+      "buyersList": [
+        {}
+      ]
+    },
+    "convertStockTypeToNoName": {
+      "enable": false,
+      "price": 310000
+    },
+    "convertStockTypeToWithName": {
+      "enable": false,
+      "price": 310000
+    },
+    "companyValue": 123123123
+  },
+  "status": "IN_PROGRESS",
+  "createdAt": {
+    "$date": "2024-10-31T16:41:30.420Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-31T16:42:23.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdbaedccdc632f19505b0d"
+  },
+  "userId": {
+    "$oid": "66d2e630dd19270bc9405232"
+  },
+  "data": {
+    "type": "سهامی خاص",
+    "name": "شرکت تست 2غبغب",
+    "nationalNumber": "3123423423",
+    "registerNumber": "32423423",
+    "members": [
+      {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 2,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "محمدی",
+        "label": "محمد محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "نایب رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 3,
+        "memberType": "حقیقی",
+        "firstname": "رضا",
+        "lastname": "رضایی",
+        "label": "رضا رضایی",
+        "nationalCode": "2110739118",
+        "share": 23,
+        "role": "مدیرعامل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 4,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "حسینی",
+        "label": "محمد حسینی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس اصلی",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 5,
+        "memberType": "حقیقی",
+        "firstname": "کیارش",
+        "lastname": "محمدی",
+        "label": "کیارش محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس علی البدل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      }
+    ],
+    "signPermissions": [
+      {
+        "id": "b0e9379f-48de-405e-881e-1bce92f92508",
+        "type": "single",
+        "signMembers": [
+          "محمد محمدی"
+        ]
+      }
+    ],
+    "newSignPermissions": [
+      {
+        "id": "62288865-44b1-4919-8cec-80084856331e",
+        "type": "single",
+        "signMembers": [
+          "ساسان پرویز"
+        ]
+      },
+      {
+        "id": "1f3b4720-95d7-49b6-b1c1-0985d553eee4",
+        "type": "multiple",
+        "signMembers": [
+          "محمد حسینی",
+          "رضا رضایی"
+        ]
+      }
+    ],
+    "establishmentDomesticBranch": {
+      "enable": false,
+      "price": 250000
+    },
+    "changeCompanyBranchAddress": {
+      "enable": false,
+      "price": 250000
+    },
+    "changeCompanyName": {
+      "enable": false,
+      "price": 500000
+    },
+    "changeCompanyField": {
+      "enable": false,
+      "price": 120000
+    },
+    "ApprovalNewStatute": {
+      "enable": false,
+      "price": 120000
+    },
+    "LiquidationCompany": {
+      "enable": false,
+      "price": 120000
+    },
+    "changeCompanyAddress": {
+      "enable": false,
+      "price": 120000
+    },
+    "ChangeNumberOfBoardMembers": {
+      "enable": false,
+      "price": 120000
+    },
+    "LiquidationBranch": {
+      "enable": false,
+      "price": 120000
+    },
+    "AmendingStatute": {
+      "enable": false,
+      "price": 120000
+    },
+    "ConvertCompany": {
+      "enable": false,
+      "price": 120000,
+      "members": []
+    },
+    "changeMembersRoles": {
+      "enable": false,
+      "price": 120000,
+      "renewal": false,
+      "newRoles": []
+    },
+    "changeRepresentative": {
+      "enable": false,
+      "price": 120000,
+      "newRepresentativePhoneNumber": "",
+      "newRepresentativeNationalCard": ""
+    },
+    "signPermissionOwners": {
+      "enable": true,
+      "price": 120000
+    },
+    "delegationOfAuthority": {
+      "enable": false,
+      "price": 120000,
+      "text": ""
+    },
+    "changeBranchManager": {
+      "enable": false,
+      "price": 120000
+    },
+    "capitalReduction": {
+      "enable": false,
+      "price": 210000,
+      "reductionType": "memberQuit",
+      "newShare": "",
+      "newCompanyValue": "",
+      "capitalType": "cash"
+    },
+    "capitalIncrease": {
+      "enable": false,
+      "price": 210000,
+      "increaseType": "newMember",
+      "memberPhoneNumber": "",
+      "incomingCapital": "",
+      "memberNewShare": "",
+      "newCompanyValue": "",
+      "capitalType": "cash"
+    },
+    "chooseInspector": {
+      "enable": false,
+      "price": 310000,
+      "renewalInspectors": false,
+      "newInspectors": []
+    },
+    "fiscalYearApproval": {
+      "enable": false,
+      "price": 310000,
+      "year": ""
+    },
+    "capitalCommitmentPayment": {
+      "enable": false,
+      "price": 310000,
+      "file": ""
+    },
+    "shareTransfer": {
+      "enable": false,
+      "price": 310000,
+      "buyersList": [
+        {}
+      ]
+    },
+    "convertStockTypeToNoName": {
+      "enable": false,
+      "price": 310000
+    },
+    "convertStockTypeToWithName": {
+      "enable": false,
+      "price": 310000
+    },
+    "companyValue": 234234234,
+    "companyTotalShare": 123123
+  },
+  "status": "DONE",
+  "createdAt": {
+    "$date": "2025-03-09T15:59:41.928Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T16:26:42.315Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,197 @@
+[{
+  "_id": {
+    "$oid": "66f667c74630e324e2942bcb"
+  },
+  "userId": {
+    "$oid": "66d2e630dd19270bc9405232"
+  },
+  "data": {
+    "type": "مسئولیت محدود",
+    "nationalNumber": "1231231231",
+    "registerNumber": "12312312",
+    "name": "علی",
+    "name2": "محمد",
+    "name3": "حسن",
+    "name4": "حسین",
+    "name5": "رضا",
+    "subject": [
+      "مورد یک",
+      "مورد دو",
+      "مورد سه"
+    ],
+    "postalCode": "1234567891",
+    "address": "تهران - تهران پارس - پلاک 12",
+    "permitCompany": false,
+    "permitFile": "",
+    "capitalType": "غیر نقدی",
+    "stockType": "با نام",
+    "signPermissionNote": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ است.",
+    "newspaper": "جام جم",
+    "members": [
+      {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 2,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "محمدی",
+        "label": "محمد محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "نایب رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 3,
+        "memberType": "حقیقی",
+        "firstname": "رضا",
+        "lastname": "رضایی",
+        "label": "رضا رضایی",
+        "nationalCode": "2110739118",
+        "share": 23,
+        "role": "مدیرعامل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      }
+    ],
+    "companyValue": 500000000,
+    "companyTotalShare": 400
+  },
+  "status": "PAYED",
+  "createdAt": {
+    "$date": "2024-09-27T08:07:35.263Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-27T10:23:06.819Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cdbfe8ccdc632f19505b23"
+  },
+  "userId": {
+    "$oid": "66d2e630dd19270bc9405232"
+  },
+  "data": {
+    "type": "سهامی خاص",
+    "nationalNumber": "1231231231",
+    "registerNumber": "12312312",
+    "name": "یکتا شمال هیرکان",
+    "name2": "شسیشسیشسیشسی",
+    "name3": "ببلیبلیبلیلب",
+    "name4": "لاتلاتلاتلاتل",
+    "name5": "ذدرذدرذرذدرذد",
+    "subject": [
+      "مورد دو",
+      "مورد یک"
+    ],
+    "postalCode": "2312312312",
+    "address": "تهران - تهران پارس - پلاک 12",
+    "permitCompany": false,
+    "permitFile": "",
+    "capitalType": "نقدی",
+    "stockType": "با نام",
+    "newspaper": "اطلاعات",
+    "members": [
+      {
+        "id": 1,
+        "memberType": "حقیقی",
+        "firstname": "ساسان",
+        "lastname": "پرویز",
+        "label": "ساسان پرویز",
+        "nationalCode": "2110739118",
+        "share": 12,
+        "role": "رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 2,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "محمدی",
+        "label": "محمد محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "نایب رئیس هیئت مدیره",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 3,
+        "memberType": "حقیقی",
+        "firstname": "رضا",
+        "lastname": "رضایی",
+        "label": "رضا رضایی",
+        "nationalCode": "2110739118",
+        "share": 23,
+        "role": "مدیرعامل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 4,
+        "memberType": "حقیقی",
+        "firstname": "محمد",
+        "lastname": "حسینی",
+        "label": "محمد حسینی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس اصلی",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      },
+      {
+        "id": 5,
+        "memberType": "حقیقی",
+        "firstname": "کیارش",
+        "lastname": "محمدی",
+        "label": "کیارش محمدی",
+        "nationalCode": "2110739118",
+        "share": 0,
+        "role": "بازرس علی البدل",
+        "phoneNumber": "09371181647",
+        "signPermission": true,
+        "nationalCardSrc": ""
+      }
+    ],
+    "signPermissions": [
+      {
+        "id": "ca4150e2-6379-4670-924f-fa928a604344",
+        "type": "single",
+        "signMembers": [
+          "ساسان پرویز"
+        ]
+      }
+    ],
+    "companyValue": 65465546,
+    "companyTotalShare": 2365
+  },
+  "status": "DONE",
+  "createdAt": {
+    "$date": "2025-03-09T16:20:56.193Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-09T16:27:01.251Z"
+  },
+  "__v": 0
+}]

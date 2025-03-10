@@ -5,20 +5,20 @@ import { Model } from 'mongoose';
 // DTOs
 import {
   CreateTransactionDto,
-  RequestEditCompanyTransactionDto,
+  // RequestEditCompanyTransactionDto,
 } from './dto/create-transaction.dto';
 import { UpdateTransactionDto } from './dto/update-transaction.dto';
 
 // Entities
 import { Transaction } from './entities/transaction.entity';
-import { CompanyEdit } from '../company-edit/entities/company-edit.entity';
-import { TRANSACTION_STATUS } from './enums/transaction-status.enum';
+// import { CompanyEdit } from '../company-edit/entities/company-edit.entity';
+// import { TRANSACTION_STATUS } from './enums/transaction-status.enum';
 
 @Injectable()
 export class TransactionsService {
   constructor(
     @InjectModel(Transaction.name) private transactionModel: Model<Transaction>,
-    @InjectModel(CompanyEdit.name) private companyEditModel: Model<CompanyEdit>,
+    // @InjectModel(CompanyEdit.name) private companyEditModel: Model<CompanyEdit>,
   ) {}
 
   async findAll() {
@@ -37,27 +37,27 @@ export class TransactionsService {
     return await this.transactionModel.find({ companyEditId });
   }
 
-  async requestEditCompanyTransaction(
-    userId: string,
-    { companyEditId }: RequestEditCompanyTransactionDto,
-  ) {
-    const companyEdit = await this.companyEditModel.findById(companyEditId);
-    let amount = 0;
-    Object.keys(companyEdit.data).forEach((i) => {
-      if (companyEdit.data[i]?.enable) {
-        amount += companyEdit.data[i]?.price;
-      }
-    });
-    // TODO: need to add payment
-    const transaction = new this.transactionModel({
-      amount,
-      companyEditId,
-      status: TRANSACTION_STATUS.CREATED,
-      userId,
-      description: 'پرداخت تغییرات شرکت ' + companyEdit.data?.name,
-    });
-    await transaction.save();
-  }
+  // async requestEditCompanyTransaction(
+  //   userId: string,
+  //   { companyEditId }: RequestEditCompanyTransactionDto,
+  // ) {
+  //   const companyEdit = await this.companyEditModel.findById(companyEditId);
+  //   let amount = 0;
+  //   Object.keys(companyEdit.data).forEach((i) => {
+  //     if (companyEdit.data[i]?.enable) {
+  //       amount += companyEdit.data[i]?.price;
+  //     }
+  //   });
+  //   // TODO: need to add payment
+  //   const transaction = new this.transactionModel({
+  //     amount,
+  //     companyEditId,
+  //     status: TRANSACTION_STATUS.CREATED,
+  //     userId,
+  //     description: 'پرداخت تغییرات شرکت ' + companyEdit.data?.name,
+  //   });
+  //   await transaction.save();
+  // }
 
   async create(dto: CreateTransactionDto) {
     const transaction = new this.transactionModel(dto);

@@ -14,7 +14,7 @@ import { TransactionsModule } from './transactions/transactions.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/sabtkon'),
+    MongooseModule.forRoot('mongodb://62.60.198.24:27017/sabtkon'), // mongodb://localhost:27017/sabtkon
     JwtModule.register({
       global: true,
       secret: 'secret',

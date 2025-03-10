@@ -15,10 +15,10 @@ export class UploadService {
 
     const s3 = new S3Client({
       region: 'default',
-      endpoint: 'http://localhost:9000', // 'http://s3.ir-thr-at1.arvanstorage.ir',
+      endpoint: 'http://62.60.198.24:9000', // 'http://localhost:9000',
       credentials: {
-        accessKeyId: '8Sg6D0TowFKrqlXhaViI', // '6e3e34a1-75f2-4dd7-8aba-b6cccaf10836',
-        secretAccessKey: 'KNEcwAdaVBUqKoblwMkqG7RFXdkUiJh7cC0YeF6u', // '6046d61437c7546f6542d80255976e53609a411e907ace4f02ffa3382d2bc3af',
+        accessKeyId: 'Ao5z2sfiG0qDcJzoCeLk', // '8Sg6D0TowFKrqlXhaViI',
+        secretAccessKey: 'LKfrJBoI2d8SRvIUSeJFnjpfKWnMvzw4paQWcrQW', // 'KNEcwAdaVBUqKoblwMkqG7RFXdkUiJh7cC0YeF6u',
       },
       forcePathStyle: true,
     });

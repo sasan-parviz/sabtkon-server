@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "66cfecc3d7cfd5efd81ef7ce"
+  },
+  "firstname": "ساسان",
+  "lastname": "پرویز",
+  "mobile": "09371181647",
+  "birthdate": {
+    "$date": "2024-09-15T08:31:28.000Z"
+  },
+  "avatar": "http://localhost:9000/sabtkon/66cfecc3d7cfd5efd81ef7ce/1726488165544-test.jpg",
+  "sex": "MALE",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2024-08-29T03:36:35.915Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-16T12:02:47.497Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d01e614aa6da80fcff8664"
+  },
+  "firstname": "محسن",
+  "lastname": "رضایی",
+  "mobile": "09115555669",
+  "birthdate": {
+    "$date": "2024-09-17T07:08:17.000Z"
+  },
+  "avatar": "http://localhost:9000/sabtkon/66cfecc3d7cfd5efd81ef7ce/1726488171576-bg.jpg",
+  "sex": "MALE",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-08-29T07:08:17.788Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-16T12:02:53.284Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d2e630dd19270bc9405232"
+  },
+  "firstname": "رضا",
+  "lastname": "قمصری",
+  "mobile": "09374464711",
+  "birthdate": {
+    "$date": "2024-09-18T09:45:20.000Z"
+  },
+  "avatar": "http://localhost:9000/sabtkon/66cfecc3d7cfd5efd81ef7ce/1727431750244-photo_2017-06-02_19-27-06.jpg",
+  "sex": "MALE",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-08-31T09:45:20.078Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-27T10:09:24.153Z"
+  },
+  "__v": 0
+}]
