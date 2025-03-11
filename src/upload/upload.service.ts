@@ -17,8 +17,8 @@ export class UploadService {
       region: 'default',
       endpoint: 'http://62.60.198.24:9000', // 'http://localhost:9000',
       credentials: {
-        accessKeyId: 'Ao5z2sfiG0qDcJzoCeLk', // '8Sg6D0TowFKrqlXhaViI',
-        secretAccessKey: 'LKfrJBoI2d8SRvIUSeJFnjpfKWnMvzw4paQWcrQW', // 'KNEcwAdaVBUqKoblwMkqG7RFXdkUiJh7cC0YeF6u',
+        accessKeyId: 'SpsIBgvJxwV5ccBg1v2K', // '8Sg6D0TowFKrqlXhaViI',
+        secretAccessKey: 'zPHHvIxLNXLde2N4NNTEVPFFiG1jDmuKGhqgggZy', // 'KNEcwAdaVBUqKoblwMkqG7RFXdkUiJh7cC0YeF6u',
       },
       forcePathStyle: true,
     });
